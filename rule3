@@ -1,0 +1,6 @@
+import "hash"
+rule third_rule
+{
+	condition:
+		hash.md5(0, filesize) == "2875296c3c51f4395df86c5874d463c7"
+}

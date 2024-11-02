@@ -1,0 +1,7 @@
+rule second_rule
+{
+    strings:
+        $a = "Y21kLmV4ZQ==" base64
+    condition:
+        $a
+}
